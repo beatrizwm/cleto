@@ -1,0 +1,71 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5em 0;
+}
+.image {
+    width: 25%;
+}
+.infos {
+    width: 20%;
+}
+.form {
+    width: 40%;
+    padding-right: 4em;
+}
+
+.infos .title {
+    font-family: 'Epilogue', sans-serif;
+    margin-bottom: 0.5em;
+}
+.infos a {
+    display: block;
+}
+div.social {
+    margin-top: 1em
+}
+div.social svg {
+    width: 25px;
+    height: 25px;
+
+    display: inline-block;
+}
+div.social svg + svg {
+    margin-left: 0.7em;
+}
+
+.form div + div {
+    margin-top: 1em;
+}
+.form label, .form input, .form textarea {
+    display: block;
+}
+.form input, .form textarea {
+    border-bottom: 2px solid #34391b;
+    padding: 0.3em;
+    width: 100%;
+}
+div.btn input {
+    width: 40%;
+    background-color: transparent;
+    color: #34391b;
+    border: none;
+    cursor: pointer;
+
+    background-image: url(/images/btbg.svg);
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 50px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+    transition: all 0.3s;
+}
+div.btn input:hover {
+    text-decoration: underline;
+}

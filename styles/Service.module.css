@@ -1,0 +1,23 @@
+.service {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: stretch;
+    align-items: stretch;
+}
+div.description {
+    background-color:#34391b;
+    padding: 3em;
+    color: #fff;
+}
+.type {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+}
+.title {
+    font-size: 30px;
+    font-family: 'Epilogue', sans-serif;
+    margin: 0.7em 0;
+}
+.image img {
+    display: block;
+}

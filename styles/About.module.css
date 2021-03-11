@@ -1,0 +1,41 @@
+.about, .philosophy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image, .text {
+    width: 35%;
+}
+.title {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: normal;
+}
+.about {
+    margin: 5em 0;
+}
+.about .image {
+    margin-right: 5em;
+}
+
+.philosophy .image {
+    margin-left: 5em;
+}
+
+.aboutServices {
+    margin: 5em 0;
+}
+.aboutServices h2 {
+    text-align: center;
+}
+.aboutServices .list {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aboutServices .list .item h3 {
+    margin: 0.5em 0;
+}
