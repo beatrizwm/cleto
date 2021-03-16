@@ -8,16 +8,15 @@ export default function Contact() {
         <Layout title="Contato | Wunjo">
             <section className={styles.contact}>
                 <div className={styles.image}>
-                    <img src="/images/about1.png" alt=""/>
+                    <img src="/images/cleto.jpeg" alt=""/>
                 </div>
                 <div className={styles.infos}>
                     <h1 className={styles.title}>Fale conosco</h1>
-                    <a href="">11 9 0000 - 0000</a>
+                    <a href="">11 9 3297-0166</a>
                     <a href="mailto:contato@wunjo.com.br">contato@wunjo.com.br</a>
                     <div className={styles.social}>
                         <FaFacebookF className="icon"/>
                         <FaInstagram className="icon"/>
-                        <FaLinkedinIn className="icon"/>
                     </div>
                 </div>
                 <div className={styles.form}>

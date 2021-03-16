@@ -8,8 +8,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp, FaEnvelope } from '
 
 export default function Layout({title, children}) {
     const router = useRouter()
-    const route = router.route
-    console.log(route)
+    const route  = router.route
 
     return(
         <>
@@ -37,7 +36,6 @@ export default function Layout({title, children}) {
                     <div className="social flex">
                         <FaFacebookF className="icon"/>
                         <FaInstagram className="icon"/>
-                        <FaLinkedinIn className="icon"/>
                     </div>
                     <Link href="/">
                         <a className="logo">
